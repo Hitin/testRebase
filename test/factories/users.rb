@@ -3,6 +3,5 @@ FactoryBot.define do
     sequence(:email) { |n| "person#{n}@example.com" }
     sequence(:first_name) { |n| "First name#{n}" }
     sequence(:last_name) { |n| "Last name#{n}" }
-    task
   end
 end
