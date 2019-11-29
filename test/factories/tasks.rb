@@ -1,8 +1,8 @@
 FactoryBot.define do
   factory :task do
-    sequence(:name) { |n| "name#{n}" }
-    sequence(:description) { |n| "MyText#{n}" }
-    author
-    assignee
+    name
+    description { generate :string }
+    author { nil }
+    assignee { nil }
   end
 end
