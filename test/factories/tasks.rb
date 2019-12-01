@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :task do
     name
-    description { generate :string }
+    description
     author { nil }
     assignee { nil }
   end
